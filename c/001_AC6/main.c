@@ -15,7 +15,7 @@ int main(){
     scanf("%d",&n);
     for(int i=0,t=0;n>0;i++){
         if(i==0){
-            printf(" %d ",l1);
+            printf(" %d",l1);
             n--;
         }else{
             if(i>1){
@@ -23,7 +23,7 @@ int main(){
                     t=1;
                     l1=l1+l2;
                     if(prime(l1)!=0){
-                        printf(" %d ",l1);
+                        printf(" %d",l1);
                         n--;
                     }
                 }else{
@@ -31,7 +31,7 @@ int main(){
                         t=0;
                         l2=l1+l2;
                         if(prime(l2)!=0){
-                            printf(" %d ",l2);
+                            printf(" %d",l2);
                             n--;
                         }
                     }

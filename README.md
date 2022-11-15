@@ -2,6 +2,6 @@
 
 > 2020-21
 
-# [C](https://github.com/paurigine/DAW2/tree/main/c)
+# [C](https://github.com/paurieram/EI1/tree/main/c)
 
 > 002
